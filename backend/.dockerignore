@@ -1,0 +1,14 @@
+# Files and directories to exclude from Docker build context
+# This makes docker build faster and the image smaller
+
+__pycache__
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+.git
+.gitignore
+*.md
+.pytest_cache
+.mypy_cache
